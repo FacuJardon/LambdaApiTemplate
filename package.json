@@ -1,0 +1,24 @@
+{
+  "name": "lambda-api-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd cdk && cdk synth facu-stack-api",
+    "test": "test",
+    "deploy": "cd ./cdk && cdk deploy --require-approval never"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacuJardon/LambdaApiTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacuJardon/LambdaApiTemplate/issues"
+  },
+  "homepage": "https://github.com/FacuJardon/LambdaApiTemplate#readme",
+  "dependencies": {
+    "aws-cdk": "^2.166.0"
+  }
+}
